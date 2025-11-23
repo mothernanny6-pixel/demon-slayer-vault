@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demon Slayer Vault</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <!-- Opening Slash Screen -->
+    <div id="opening">
+        <div class="blade"></div>
+        <h1 class="opening-text">DEMON SLAYER VAULT</h1>
+    </div>
+
+    <!-- Password Screen -->
+    <div id="password-screen" class="hidden">
+        <h2 class="title">Enter Vault Password</h2>
+        <input type="password" id="password-input" placeholder="Enter password...">
+        <button id="unlock-btn">Unlock</button>
+        <p class="hint">Password: hey are you otaku I'm also otaku</p>
+    </div>
+
+    <!-- Main Vault -->
+    <div id="vault" class="hidden">
+        <h2 class="vault-title">🔥 Demon Slayer Private Vault 🔥</h2>
+
+        <div class="upload-box">
+            <input type="file" id="file-upload" multiple>
+        </div>
+
+        <div id="gallery"></div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
